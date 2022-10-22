@@ -7,17 +7,17 @@ int main()
 {
     setlocale(LC_ALL, "Bulgarian");
      
-    char f_name[] = { "104331Грамадова" };
+    char f_name[] = { "104331ГѓГ°Г Г¬Г Г¤Г®ГўГ " };
     cout << f_name << endl << endl;
     int sz = 15; // 15 characters
     sort(f_name, f_name+sz);
     cout << "Sorted - > " << f_name << endl << endl;
 
     cout << boolalpha;
-    cout << "Is 'я' there? " << Check(f_name, sz, 'я') << endl << endl;
-    cout << "Is 'ю' there? " << Check(f_name, sz, 'ю') << endl << endl;
-    cout  << "Is 'ъ' there? " << Check(f_name, sz, 'ъ') << endl << endl;
-    cout << "Is 'о' there? " << Check(f_name, sz, 'о') << endl << endl;
+    cout << "Is 'Гї' there? " << Check(f_name, sz, 'Гї') << endl << endl;
+    cout << "Is 'Гѕ' there? " << Check(f_name, sz, 'Гѕ') << endl << endl;
+    cout  << "Is 'Гє' there? " << Check(f_name, sz, 'Гє') << endl << endl;
+    cout << "Is 'Г®' there? " << Check(f_name, sz, 'Г®') << endl << endl;
 
     cout << "Is '9' there? " << Check(f_name, sz, '9') << endl << endl;
     cout << "Is '8' there? " << Check(f_name, sz, '8') << endl << endl;

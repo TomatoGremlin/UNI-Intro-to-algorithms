@@ -17,7 +17,7 @@ int main()
     setlocale(LC_ALL, "Bulgarian");
     ofstream outToFile; 
     outToFile.open("NameOfFile.csv", ios::app); 
-    outToFile << "Áðîé åëåìåíòè" << ";" << "Îáõîæäàíå íà öåëèÿ ìàñèâ" << ";" << "Äî íàìèðàíå íà êîòâà" << ";" << "Äèõîòîìè÷íî" << endl; //endl is new row // ';' is next column (or ',' in some cases?)
+    outToFile << "ÃÃ°Ã®Ã© Ã¥Ã«Ã¥Ã¬Ã¥Ã­Ã²Ã¨" << ";" << "ÃŽÃ¡ÃµÃ®Ã¦Ã¤Ã Ã­Ã¥ Ã­Ã  Ã¶Ã¥Ã«Ã¨Ã¿ Ã¬Ã Ã±Ã¨Ã¢" << ";" << "Ã„Ã® Ã­Ã Ã¬Ã¨Ã°Ã Ã­Ã¥ Ã­Ã  ÃªÃ®Ã²Ã¢Ã " << ";" << "Ã„Ã¨ÃµÃ®Ã²Ã®Ã¬Ã¨Ã·Ã­Ã®" << endl; //endl is new row // ';' is next column (or ',' in some cases?)
    
    
     // Vector with random numbers

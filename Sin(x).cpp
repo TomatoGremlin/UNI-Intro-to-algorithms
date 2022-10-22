@@ -1,8 +1,8 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-// вариант 2 - без пресмятане на факториел
-#define Pi  3.14 // приблизително
+// ГўГ Г°ГЁГ Г­ГІ 2 - ГЎГҐГ§ ГЇГ°ГҐГ±Г¬ГїГІГ Г­ГҐ Г­Г  ГґГ ГЄГІГ®Г°ГЁГҐГ«
+#define Pi  3.14 // ГЇГ°ГЁГЎГ«ГЁГ§ГЁГІГҐГ«Г­Г®
 
 double Sinus(double, int);
 int main()
@@ -11,7 +11,7 @@ int main()
     
     cout << "sin(Pi / 12) = " << Sinus(Pi / 12, 10) << endl;
     
-    cout << endl << "sin(Pi / 12) = " << sin(Pi/12) << endl;//за проверка
+    cout << endl << "sin(Pi / 12) = " << sin(Pi/12) << endl;//Г§Г  ГЇГ°Г®ГўГҐГ°ГЄГ 
 
     return 0;
 }

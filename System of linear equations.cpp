@@ -12,11 +12,11 @@ int main()
     double x_answers[n];
     double div = 0.0;
     double multi = 0.0;
-    for (int i = 0; i < n; i++) // ðåäîâå
+    for (int i = 0; i < n; i++) // Ã°Ã¥Ã¤Ã®Ã¢Ã¥
     {
         div = Matrix[i][i];
 
-        for (int j = i; j < m; j++) // êîëîíè
+        for (int j = i; j < m; j++) // ÃªÃ®Ã«Ã®Ã­Ã¨
         {
             Matrix[i][j] = Matrix[i][j] / div;
         }
@@ -31,8 +31,8 @@ int main()
     }
     // -----------------------------------
     cout << "Matrix after SLU =" << endl;
-    for (int i = 0; i < n; i++) {   // ðåäîâå
-        for (int j = 0; j < m; j++) {     // êîëîíè
+    for (int i = 0; i < n; i++) {   // Ã°Ã¥Ã¤Ã®Ã¢Ã¥
+        for (int j = 0; j < m; j++) {     // ÃªÃ®Ã«Ã®Ã­Ã¨
             if (j == m-1) cout << " | ";
             cout << Matrix[i][j] << '\t';
         }

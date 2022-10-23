@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-// 6 задача
+// 6 Р·Р°РґР°С‡Р°
 int Print(int* numbers, int n) 
 {
     for (int i = 0; i < n; i++)
@@ -31,7 +31,7 @@ int main()
     for (int i = 0; i < n - 1; i++)
     {
 
-        cout << "Състояние " << i << ": ";
+        cout << "РЎСЉСЃС‚РѕСЏРЅРёРµ " << i << ": ";
         Print(numbers, n);
 
         checks = 0;
